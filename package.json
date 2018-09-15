@@ -1,0 +1,16 @@
+{
+  "name": "uptodate",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "GOOGLE_APPLICATION_CREDENTIALS=./keyfile.json node server.js"
+  },
+  "keywords": [],
+  "author": "Justin Beckwith <justin.beckwith@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/pubsub": "^0.20.0",
+    "axios": "^0.18.0"
+  }
+}
